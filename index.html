@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate age </title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+     <h1 class="container"> Calculate age</h1>
+     <div class="calculate">
+        <label class="input" id="birthdate" for="dob"><h2>Enter your birthdate 🎂:</h2></label>
+        <br>
+        <br>
+        <br>
+        <input type="date" id="dob" class="input" placeholder="DOB">
+        </div>
+        <br>
+      <button class="calculatebtn" onclick="calculateage()">Calculate age</button>
+        
+        <div class="error" id="errorMsg"></div>
+        <div class="result" id="result">
+            <div class="age-display" id="ageDisplay">0 years old</div>
+            <div class="age_breakdown" id="ageBreakdown">
+            </div>
+     
+     </div>
+     <br>
+     <br>
+    
+    <script src="second.js"></script>
+</body>
+</html>
+
